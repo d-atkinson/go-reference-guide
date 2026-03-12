@@ -1,0 +1,11 @@
+<aside id="sidebar">
+  <ul>
+    {% for link in site.data.sidebar_links %}
+      {% if link.url %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+      {% elsif link.external_url %}
+        <li><a href="{{ link.external_url }}" target="_blank">{{ link.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</aside>

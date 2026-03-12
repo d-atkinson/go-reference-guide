@@ -1,0 +1,8 @@
+- title: "Home"
+  url: "/"
+- title: "About"
+  url: "/about/"
+- title: "Blog"
+  url: "/blog/"
+- title: "External Link"
+  external_url: "https://example.com"
